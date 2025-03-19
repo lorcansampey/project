@@ -1,0 +1,77 @@
+body {width: 100% ;
+background-color: rgb(87, 87, 87)
+}
+.maxDisplay{
+    max-height: 350px;
+    overflow: auto;
+}
+h1{ text-align:right;}
+h1, h2{
+    color: rgba(255, 255, 255, 0.91);
+}
+
+footer p{
+    text-align: center;
+    color : rgb(255, 255, 255);
+}
+p{
+    color:aliceblue;
+    text-align:left;
+    margin-left:5px;
+    margin-right:5px;
+}
+.resize-image {
+   width: 470px; 
+   height: auto;  
+ }
+ .resize-image2 {
+   width: 800px;  /* Resize the image to 200px wide */
+   height: auto;  /* Adjust height automatically to maintain aspect ratio */
+ }
+ .resize-image3 {
+   width: 300;
+   height: auto; 
+ }
+ .resize-image4 {
+   width: 200;
+   height: auto; 
+ }
+ 
+ nav ul{
+    text-align: center;
+    font-size: 1.2em;
+ }
+ nav ul li {
+    list-style-type: none;
+    background-color: rgb(52, 211, 190);
+    display: inline;
+    padding: 15px;
+    margin:5px;
+    border:2px solid rgb(255, 55, 64);
+    border-radius:10px
+ }
+ nav ul li a{
+    color: white;
+    text-decoration: none;
+ }
+ nav ul li:hover{
+    background-color: rgb(0, 98, 255);
+ }
+ header{
+    background-color: #ff0000;
+    padding : 10px;
+ }
+ footer {
+   background-color: #333; /* Dark background */
+   color: white; /* White text */
+   text-align: center; /* Center the text horizontally */
+   padding: 1px 0; /* Some space above and below the text */
+   position: fixed; /* Keeps the footer at the bottom of the page */
+   width: 100%; /* Ensures the footer spans the full width of the page */
+   bottom: 0; /* Positions the footer at the bottom */
+   left: 0; /* Ensures the footer starts at the very left edge */
+}
+ body{
+    font-family: Verdana;
+    margin:0;
+ }
